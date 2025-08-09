@@ -1,16 +1,14 @@
 /** Problem -01 ( Divide the Asset ) */
-var area = 2060;
+var area = 800;
 //write your code here
 if(area > 0 && area <= Math.pow(10,9)){
-    const out=area/2;
-    console.log(out);
+    const asset=area/2;
+    console.log(asset);
 }
 
-/* ________________________________________________________________________________ /*
-/* ________________________________________________________________________________ /*
 
 /** Problem -02 ( Cycle or Laptop ) */
-var money = 45000;
+var money = 10000;
 //write your code here
 if (money === 25000 || money >25000 ){
     console.log("Laptop")
@@ -20,13 +18,10 @@ if (money === 25000 || money >25000 ){
     console.log("Chocolate")
 }
 
-/* ________________________________________________________________________________ /*
-/* ________________________________________________________________________________ /*
 
 /** Problem -03 ( Medicine Planner ) */
-var lastDay = 6;
+var lastDay = 11;
 //write your code here
-
 for (var day = 1; day <= lastDay; day++) {
     if (day % 3 === 0) {
         console.log(day + " - medicine");
@@ -35,11 +30,9 @@ for (var day = 1; day <= lastDay; day++) {
     }
 }
 
-/* ________________________________________________________________________________ /*
-/* ________________________________________________________________________________ /*
 
 /** Problem 04 - (Delete / Store) */
-var fileName= "#exp.mp4";
+var fileName= "pdfData.jpg";
 //write your code here
 if(
     fileName.startsWith("#") ||
@@ -51,24 +44,14 @@ console.log("Store");
 console.log("Delete");
 }
 
-/* ________________________________________________________________________________ /*
-/* ________________________________________________________________________________ /*
 
 /** Problem 05 - ( PH Email Generator )  */
-var student={ name: "jhankar" , roll: 1014 ,department: "cse"  };
+var student = { name: "jhankar", roll: 1014, department: "cse" };
 //write your code here
-if (student.department === "cse") {
-    var email = student.name + student.roll + "." + student.department + "@ph.ac.bd";
-    console.log(email);
-} else if (student.department === "eee") {
-    var email=student.name+student.roll+ "."+student.department + "@ph.ac.bd";
-    console.log(email);
-}else{
-    console.log("!invalid email.Please input the correct formate.")
-}
+var email = student.name + student.roll + "." + student.department + "@ph.ac.bd";
+console.log(email);
 
-/* ________________________________________________________________________________ /*
-/* ________________________________________________________________________________ /*
+
 
 /** Problem 06 :  (Current Salary )  */
 var experience = 30;
@@ -86,3 +69,9 @@ if(startingSalary < 45000 && experience <30){
     console.log("Experience:",experience);
     console.log("Current Salary:",currentSlary.toFixed(2));
 }
+
+
+
+
+
+

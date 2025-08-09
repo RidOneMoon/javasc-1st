@@ -1,5 +1,5 @@
 /** Problem 04 - (Delete / Store) */
-var fileName= "#exp.mp4";
+var fileName= "pdfData.jpg";
 //write your code here
 if(
     fileName.startsWith("#") ||
