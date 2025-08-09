@@ -46,11 +46,12 @@ console.log("Delete");
 
 
 /** Problem 05 - ( PH Email Generator )  */
-var student = { name: "jhankar", roll: 1014, department: "cse" };
+var student= { name: "jhankar" , roll: 1014 ,department: "cse" };
 //write your code here
-var email = student.name + student.roll + "." + student.department + "@ph.ac.bd";
-console.log(email);
-
+if (student.name && student.roll && student.department) {
+    var email = student.name + student.roll + "." + student.department + "@ph.ac.bd";
+    console.log(email);
+}
 
 
 /** Problem 06 :  (Current Salary )  */
